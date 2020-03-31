@@ -61,7 +61,7 @@ $.get('xiangshan.json', function (usaJson) {
     echarts.registerMap('xiangshan', usaJson);
     option = {
         title: {
-            text: '象山县地图',
+            text: 'XXX地图',
             left: 'center'
         },
         tooltip: {
@@ -173,7 +173,7 @@ $.get('xiangshan.json', function (usaJson) {
             },
            
             {
-                name: '专利总量',
+                name: 'XXX总量',
                 type: 'map',
                 map: 'xiangshan',
                 zoom:1.1,
@@ -229,7 +229,7 @@ $.get('xiangshan.json', function (usaJson) {
                             fontSize: 9,
                         },
                         formatter:function(value){
-                            return "专利总量\n"+value.data.value[2]
+                            return "XXX总量\n"+value.data.value[2]
                         }
                     }
                 },
