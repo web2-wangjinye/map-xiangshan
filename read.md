@@ -17,3 +17,6 @@ vscode的git使用：https://www.cnblogs.com/ashidamana/p/6122619.html
 创建并切换：git checkout -b hello_git_branch
 将分支push到远程仓库上：git push origin hello_git_branch
 
+删除远程分支：git push origin --delete 分支名
+删除本地分支：git branch -D 分支名
+
